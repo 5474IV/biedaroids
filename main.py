@@ -4,7 +4,7 @@ from logger import log_state
 
 def main():
 	pygame.init()
-	clock = pygame.time.Clock
+	clock = pygame.time.Clock()
 	dt = 0
 	screen = pygame.display.set_mode((c.SCREEN_WIDTH, c.SCREEN_HEIGHT))
 	while(True):
